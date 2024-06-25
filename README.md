@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -76,7 +76,7 @@
     <section id="about">
         <div class="container">
             <h2>교회 소개</h2>
-            <img src="로고.png">
+            <img src="로고.png" alt="교회 로고" class="img-fluid">
             <p>노원구 상계동에 위치한 대한예수교장로회 첫걸음교회입니다 :)<br><br>
                 🙋‍ 전교인이 함께 사역을 이루어 가는 '교인교회'<br>
                 👨‍ 상처에 반창고가 되어주는 '이웃교회'<br>
@@ -121,7 +121,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
         function openFullscreenWindow(url) {
-            var newWindow = window.open(url, '_blank', 'fullscreen=yes');
+            var newWindow = window.open(url, '_blank');
             newWindow.moveTo(0, 0);
             newWindow.resizeTo(screen.width, screen.height);
         }
