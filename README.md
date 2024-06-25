@@ -18,20 +18,22 @@
             margin-bottom: 20px;
         }
         header, section, footer {
-            padding: 40px 0;
+            padding: 10px 0;
         }
         section {
             background-color: #f8f9fa;
-            margin-bottom: 20px;
         }
         footer {
             background-color: #343a40;
             color: #ffffff;
-            padding: 20px 0;
+        }
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
         }
         .hero-section {
             background: url('hero-image.jpg') no-repeat center center/cover;
-            height: 400px;
+            height: 200px;
             display: flex;
             align-items: center;
             justify-content: center;
